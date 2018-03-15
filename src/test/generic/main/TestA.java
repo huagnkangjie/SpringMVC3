@@ -13,7 +13,6 @@ import test.generic.bean.UserA;
  */
 public class TestA implements IGeneric<UserA>{
 
-	@Override
 	public void play(UserA o) {
 		System.out.println("do A = " + o.getName());
 	}
